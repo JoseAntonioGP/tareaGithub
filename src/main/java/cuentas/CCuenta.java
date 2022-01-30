@@ -1,5 +1,13 @@
 package cuentas;
 
+/**
+ * Simula una cuenta corriente con los atributos nombre, cuenta, saldo y tipoInterés
+ * Contiene métodos para ingresar y retirar una cantidad de la cuenta
+ * 
+ * @author jose
+ * @version 1.0
+ * @since 30-01-2022
+ */
 public class CCuenta {
 
 

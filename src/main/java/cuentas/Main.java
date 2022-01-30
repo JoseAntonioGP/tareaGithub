@@ -1,11 +1,28 @@
 package cuentas;
 
+/**
+ * Simula una cuenta bancaria
+ * 
+ * @author jose
+ * @version 1.0
+ * @since 30-01-2022
+ */
 public class Main {
 
+    /**
+     * Método main
+     * Realiza los cálculos en una cuenta bancaria tras retirar e ingresar unas cantidades
+     * 
+     * @param args 
+     */
     public static void main(String[] args) {
         operativa_cuenta(0);
     }
-
+/**
+ * Calcula el saldo de la cuenta tras ingresar y retirar unas cantidades
+ * 
+ * @param cantidad el saldo de la cuenta
+ */
     private static void operativa_cuenta(float cantidad) {
         CCuenta cuenta1;
         double saldoActual;
